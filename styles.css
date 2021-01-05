@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:gray;
+}
+
+p{
+    margin: 0.5em 0 0.5em 0;
+}
+
+header{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:ivory;
+    padding: 50px 0 50px 0;
+    background-image: url("images/fondo.jpg");
+    text-align:center;
+    font-size: 1.5em;
+}
+
+nav a:visited,
+nav a:link{
+    color: black;
+    text-decoration: none;
+}
+
+nav>ul{
+    display: inline;
+    padding: 0;
+}
+
+nav>ul>li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
+}
+
+main {
+display: block;
+background-image: url("images/fondo.jpg");
+padding-top: 8em;
+padding-bottom: 3em;
+text-align: center;
+width: 100%;
+height: 85%;
+}
+
+footer{
+    display: block;
+    background-image: url("images/fondo.jpg");
+    padding: 3em;
+    text-align: center;
+    font-size: 1.5em;
+    }
+
+aside, article{
+    padding: 2em;
+    }
+
+aside{
+    text-align: center;
+    }
+
+article{
+    width: 100%;
+    padding: 0%;
+}
+@media only screen and (min-width: 768px) {
+    main {
+        display: flex;
+    }
+    aside {
+        margin-left: 2%;
+    }
+    .columns-desktop{
+        display: flex;
+        
+    }
+}
+
+.logo{
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 0,5em;
+}
+
+.sub-title{
+    background-color:gray;
+    font-size: 1.5em;
+    padding: 10px;
+    border: solid 2px;
+}
+
+/* Catalogo */
+
+.carnepicante{
+    width: 250px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: gray;
+    border: solid 1px;
+}
+
+.carnepicante img{
+width: 100%;
+height: 65%;
+object-fit: cover;
+}
+
+.carnepicante .title{
+font-weight: bold;
+}
+
+.carnepicante .price{
+    text-align: right;
+}
+
+.carnepicante .columns {
+    max-width: 100%;
+    display: flex;
+}
+.carnepicante .columns div{
+    width: 50%;
+}
+
+.carnepicante button{
+    background-color:white;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 3px;
+
+}
+
+.carnesuave{
+    width: 250px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: gray;
+    border: solid 1px;
+}
+
+.carnesuave img{
+width: 100%;
+height: 65%;
+object-fit: cover;
+}
+
+.carnesuave .title{
+font-weight: bold;
+}
+
+..carnesuave .price{
+    text-align: right;
+}
+
+.carnesuave .columns {
+    max-width: 100%;
+    display: flex;
+}
+.carnesuave .columns div{
+    width: 50%;
+}
+
+.carnesuave button{
+    background-color:white;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 3px;
+
+}
+
